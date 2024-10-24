@@ -1,0 +1,95 @@
+*{
+    margin: 500;
+    padding: 50;
+}
+
+/* fazer essa determinação em todos é um boa pratica pois o asterisco garante que vai ser
+   aplicado em todo documento, e assim vc pode ajustar a margem de acordo com sua
+   preferencia */
+h1 {
+    color: rgb(91, 68, 175);
+    font-size: 70px;
+    font-weight: 900;
+    text-decoration: wavy;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 60px;
+}
+
+p {
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-style: normal;
+    text-align: justify;
+}
+
+.bg {
+    height: 500px;
+    /*height vem do ingles e significa altura*/
+    width: 100%;
+    /*width vem do ingles e significa largura*/
+    /* espaço determinado para onde a imagem tem que caber */
+
+    background-image: url(https://web41.com.br/wp-content/uploads/2022/02/sites-responsivos.png);
+    /* nao salvei a imagem no computador por isso puxei o URL */
+    background-size: cover;
+    /* o formato cover ajusta da imagem dentro do espaço determinado sem deformar ela mas
+   corta um pedaço, o formato contain faz a imagem aparecer sem corte mas deforma */
+    background-repeat: no-repeat;
+    /* vai garantir que a imagem não vai se repetir dentro do espaço determinado */
+    background-position: center;
+    background-attachment: fixed;
+    /* esse comando faz a imagem ficar fixada e o texto ir passando por cima, não funciona com
+   todo navegador */
+}
+
+h2{
+    color: rgb(91, 68, 175);
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration:dashed;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+#demon {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://web41.com.br/wp-content/uploads/2022/02/sites-responsivos.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:right;
+   
+    margin-left: 1000px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+#menu ul  {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#menu li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    width: 114px;
+    height: 24px;
+    top: 49px;
+    left: 974px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: larger;
+    
+}
+
+#menu li a {
+    color: rgb(91, 68, 175);
+    text-decoration:dashed;
+    
+}
